@@ -1,0 +1,38 @@
+p{
+    font-size: 1.2rem;
+}
+
+.background-img {
+    background-image:url(../img/background-img.png);
+    background-repeat: repeat;
+    background-size: 150px;
+}
+
+.img {
+    max-width: 250px;
+}
+
+.bg-color {
+    background-color: white;
+
+}
+
+@media screen and (max-width:768px){
+
+    .img {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    .img {
+        width: 200px;
+    }
+
+    .mediaQuary{
+        width:100%;
+    }
+}
+
+
