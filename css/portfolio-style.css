@@ -10,7 +10,7 @@
 }
 
 .img{
-    max-width: 350px;
+    width: max-content;
     
 }
 
